@@ -34,7 +34,7 @@ $posts = $pdo->query('SELECT * from posts');
                 foreach($posts as $row) {
             ?>
                 <tr>
-                    <th scope="row"><?php echo $id; ?></th>
+                    <th scope="row"><?php echo $row['id']; ?></th>
                     <td><?php echo $row['title']; ?></td>
                     <td><?php echo $row['description']; ?></td>
                     <td><?php echo $row['active']; ?></td>
