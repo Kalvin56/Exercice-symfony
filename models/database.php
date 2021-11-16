@@ -2,9 +2,6 @@
 
 /**
  * Initialisation de la connexion à la base de données
- *
- * @author Fabien Bellanger
- * @return PDO|bool
  */
 function initDatabse(): ?PDO
 {
